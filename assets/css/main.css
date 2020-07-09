@@ -13,7 +13,6 @@ body {
 h1 {
     text-align: center;
     color: white;
-    font-weight: 200;
     font-size: 40px;
     letter-spacing: 0.20em;
     font-family: 'Nunito', sans-serif;
@@ -27,64 +26,67 @@ img {
 
 .icon {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    text-align: center;
     filter: invert(100%);
-    transition: 1s;
+    transition: 0.5s;
     max-width: 20vw;
     max-height: 10vh;
-}
-
-.icon-github {
-    position: absolute;
-    left: 50%;
-}
-
-.icon-twitter {
-    position: absolute;
-    left: 40%;
-}
-
-.icon-linkedin {
-    position: absolute;
-    left: 60%;
-}
-
-.icon-facebook {
-    position: absolute;
-    left: 30%;
+    top: 50%;
 }
 
 .icon-email {
     position: absolute;
-    left: 70%;
+    left: 27.5%;
+}
+
+.icon-facebook {
+    position: absolute;
+    left: 37.5%;
+}
+
+.icon-github {
+    position: absolute;
+    left: 47.5%;
+}
+
+.icon-linkedin {
+    position: absolute;
+    left: 57.5%;
+}
+
+.icon-twitter {
+    position: absolute;
+    left: 67.5%;
 }
 
 @media (max-width:1080px) {
+    h1 {
+        font-size: 48px;
+    }
     .icon {
         position: absolute;
         width: 120px;
-        left: 45%;
+        left: 40%;
         max-height: 8vh;
     }
-    .icon-github {
+    .icon-email {
         position: absolute;
-        top: 50%;
-    }
-    .icon-twitter {
-        position: absolute;
-        top: 40%;
-    }
-    .icon-linkedin {
-        position: absolute;
-        top: 60%;
+        top: 70%;
     }
     .icon-facebook {
         position: absolute;
         top: 30%;
     }
-    .icon-email {
+    .icon-github {
         position: absolute;
-        top: 70%;
+        top: 50%;
+    }
+    .icon-linkedin {
+        position: absolute;
+        top: 60%;
+    }
+    .icon-twitter {
+        position: absolute;
+        top: 40%;
     }
 }
