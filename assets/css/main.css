@@ -10,6 +10,15 @@ body {
     margin: 0px;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 0.20em;
+    font-family: 'Nunito', sans-serif;
+}
+
 img {
     width: auto;
     height: auto;
