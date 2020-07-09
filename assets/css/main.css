@@ -21,7 +21,7 @@ img {
     top: 50%;
     left: 50%;
     filter: invert(100%);
-    transition: 0.5s;
+    transition: 1s;
     max-width: 20vw;
     max-height: 10vh;
 }
@@ -51,7 +51,7 @@ img {
     left: 70%;
 }
 
-@media (max-width:720px) {
+@media (max-width:1080px) {
     .icon {
         position: absolute;
         width: 120px;
@@ -61,26 +61,21 @@ img {
     .icon-github {
         position: absolute;
         top: 50%;
-        left: 45%;
     }
     .icon-twitter {
         position: absolute;
         top: 40%;
-        left: 45%;
     }
     .icon-linkedin {
         position: absolute;
         top: 60%;
-        left: 45%;
     }
     .icon-facebook {
         position: absolute;
         top: 30%;
-        left: 45%;
     }
     .icon-email {
         position: absolute;
         top: 70%;
-        left: 45%;
     }
 }
