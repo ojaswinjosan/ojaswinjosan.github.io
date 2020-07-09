@@ -9,3 +9,37 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    filter: invert(100%);
+    transition: 0.5s;
+}
+
+.icon-github {
+    position: absolute;
+    left: 50%;
+}
+
+.icon-twitter {
+    position: absolute;
+    left: 45%;
+}
+
+.icon-linkedin {
+    position: absolute;
+    left: 55%;
+}
+
+.icon-facebook {
+    position: absolute;
+    left: 40%;
+}
+
+.icon-email {
+    position: absolute;
+    left: 60%;
+}
