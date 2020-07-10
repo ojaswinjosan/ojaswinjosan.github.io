@@ -71,11 +71,11 @@ img {
     }
     .icon-email {
         position: absolute;
-        top: 70%;
+        top: 30%;
     }
     .icon-facebook {
         position: absolute;
-        top: 30%;
+        top: 40%;
     }
     .icon-github {
         position: absolute;
@@ -87,6 +87,6 @@ img {
     }
     .icon-twitter {
         position: absolute;
-        top: 40%;
+        top: 70%;
     }
 }
