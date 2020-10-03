@@ -36,22 +36,17 @@ img {
 
 .icon-email {
     position: absolute;
-    left: 32.5%;
-}
-
-.icon-facebook {
-    position: absolute;
-    left: 42.5%;
+    left: 38%;
 }
 
 .icon-github {
     position: absolute;
-    left: 52.5%;
+    left: 48%;
 }
 
 .icon-linkedin {
     position: absolute;
-    left: 62.5%;
+    left: 58%;
 }
 
 @media (max-width:1080px) {
@@ -66,11 +61,7 @@ img {
     }
     .icon-email {
         position: absolute;
-        top: 30%;
-    }
-    .icon-facebook {
-        position: absolute;
-        top: 40%;
+        top: 35%;
     }
     .icon-github {
         position: absolute;
@@ -78,6 +69,6 @@ img {
     }
     .icon-linkedin {
         position: absolute;
-        top: 60%;
+        top: 65%;
     }
 }
